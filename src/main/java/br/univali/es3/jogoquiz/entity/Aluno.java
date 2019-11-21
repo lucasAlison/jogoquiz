@@ -23,4 +23,36 @@ public class Aluno {
 
     private String senha;
 
+    public Aluno(String name,String id,String password)
+    {
+        nome = name;
+        cpf = id;
+        senha = password;
+    }
+    public String getNome()
+    {
+        return nome;
+    }
+    public String getCpf()
+    {
+        return cpf;
+    }
+    public String getSenha()
+    {
+        return senha;
+    }
+
+    public void setNome(String name)
+    {
+        nome = name;
+    }
+    public void setCpf(String name)
+    {
+        cpf = name;
+    }
+    public void setSenha(String name)
+    {
+        senha = name;
+    }
+
 }

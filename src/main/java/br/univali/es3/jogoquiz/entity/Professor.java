@@ -23,4 +23,28 @@ public class Professor {
 
     private String senha;
 
+    public String getNome()
+    {
+        return nome;
+    }
+    public String getCpf()
+    {
+        return cpf;
+    }
+    public String getSenha()
+    {
+        return senha;
+    }
+    public void setNome(String name)
+    {
+        nome = name;
+    }
+    public void setCpf(String name)
+    {
+        cpf = name;
+    }
+    public void setSenha(String name)
+    {
+        senha = name;
+    }
 }
