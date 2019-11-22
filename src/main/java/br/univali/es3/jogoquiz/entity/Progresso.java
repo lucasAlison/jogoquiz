@@ -1,12 +1,22 @@
 package br.univali.es3.jogoquiz.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
 import java.util.ArrayList;
 
+@Entity
 public class Progresso {
 
+    @Column(name = "aluno", nullable =false)
     private Aluno aluno;
-    private ArrayList<Pergunta> perguntasCorretas = new ArrayList();
+
+    @Column(name = "perguntasCorretas", nullable =false)
+    private ArrayList<Pergunta> perguntasCorretas = new ArrayList<>();
+
+    @Column(name = "perguntasIncorretas", nullable =false)
     private ArrayList<Pergunta> perguntasIncorretas = new ArrayList();
+
+    @Column(name = "trilhas", nullable =false)
     private ArrayList<Trilha> trilhas = new ArrayList();
 
     public Progresso(Aluno student)

@@ -3,10 +3,7 @@ package br.univali.es3.jogoquiz.entity;
 import lombok.Data;
 import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Data
 @ToString
@@ -17,12 +14,19 @@ public class Professor {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+    @Column(name = "nome", nullable =false)
     private String nome;
 
+    @Column(name = "cpf", nullable =false, unique=true)
     private String cpf;
 
+    @Column(name = "senha", nullable =false)
     private String senha;
 
+    public Long getId()
+    {
+        return id;
+    }
     public String getNome()
     {
         return nome;
