@@ -50,13 +50,13 @@ public class Aluno {
     {
         nome = name;
     }
-    public void setCpf(String name)
+    public void setCpf(String id)
     {
-        cpf = name;
+        cpf = id;
     }
-    public void setSenha(String name)
+    public void setSenha(String password)
     {
-        senha = name;
+        senha = password;
     }
 
 }
