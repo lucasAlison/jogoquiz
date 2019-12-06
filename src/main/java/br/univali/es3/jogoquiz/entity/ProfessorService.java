@@ -1,13 +1,22 @@
 package br.univali.es3.jogoquiz.entity;
 
+import br.univali.es3.jogoquiz.repository.ProfessorRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
+
 import java.io.File;
 import java.util.ArrayList;
 
+@Service
 public class ProfessorService {
 
-    public Boolean cadastrarProfessor(Professor professor)
+    @Autowired
+    private ProfessorRepository professorRepository;
+
+    public Professor cadastrarProfessor(Professor professor)
     {
-        return true;
+        return professorRepository.save(professor);
     }
 
     public Boolean cadastrarPerguntas(ArrayList<Pergunta> perguntas)

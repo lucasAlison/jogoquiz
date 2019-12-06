@@ -2,10 +2,10 @@ package br.univali.es3.jogoquiz.entity;
 
 import javax.persistence.*;
 
-@Entity
+//@Entity
 public class Nivel {
 
-    @Id
+  /*  @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
@@ -25,6 +25,6 @@ public class Nivel {
     {
         nome = name;
     }
-
+*/
 
 }

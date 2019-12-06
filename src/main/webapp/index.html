@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.12/datatables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <title>Jogo Quiz</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.12/datatables.min.js"></script>
+
+
+    <script src="app/app.js"></script>
+    <script src="app/routes.js"></script>
+    <script src="app/controller/indexController.js"></script>
+    <script src="app/controller/ProfessorLoginController.js"></script>
 </head>
-<body>
-    <h1>Hello World!</h1>
+<body ng-app="jogo-quiz" style="background-color: whitesmoke">
+    <div class="container" style="width: 100% !important; max-width: 100% !important; padding: 0 !important;">
+        <div ng-view=""></div>
+    </div>
 </body>
 </html>

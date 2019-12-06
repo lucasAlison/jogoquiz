@@ -4,10 +4,10 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import java.util.ArrayList;
 
-@Entity
+//@Entity
 public class Progresso {
 
-    @Column(name = "aluno", nullable =false)
+   /* @Column(name = "aluno", nullable =false)
     private Aluno aluno;
 
     @Column(name = "perguntasCorretas", nullable =false)
@@ -56,5 +56,5 @@ public class Progresso {
     public void adicionaPerguntaIncorreta(Pergunta pergunta)
     {
         perguntasIncorretas.add(pergunta);
-    }
+    }*/
 }

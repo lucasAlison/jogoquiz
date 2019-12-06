@@ -3,10 +3,10 @@ package br.univali.es3.jogoquiz.entity;
 import javax.persistence.*;
 import java.util.ArrayList;
 
-@Entity
+//@Entity
 public class Fase {
 
-    @Id
+  /*  @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
@@ -25,5 +25,5 @@ public class Fase {
     public void addPergunta(Pergunta pergunta)
     {
         perguntas.add(pergunta);
-    }
+    }*/
 }

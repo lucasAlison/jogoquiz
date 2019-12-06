@@ -3,9 +3,9 @@ package br.univali.es3.jogoquiz.entity;
 import javax.persistence.*;
 import java.util.ArrayList;
 
-@Entity
+//@Entity
 public class Trilha {
-
+/*
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
@@ -67,5 +67,5 @@ public class Trilha {
         fases.add(fase);
     }
 
-
+*/
 }

@@ -4,6 +4,6 @@ import br.univali.es3.jogoquiz.entity.Trilha;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public interface TrilhaRepository extends JpaRepository<Trilha, Long> {
+//@Repository
+public interface TrilhaRepository{ //extends JpaRepository<Trilha, Long> {
 }

@@ -1,0 +1,62 @@
+.painel-home {
+
+    width: 50%;
+    margin: 100px auto;
+
+}
+
+.painel-home-modulo {
+    margin: 0;
+    padding: 0;
+}
+
+.panel-heading {
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+.painel-home-modulo-bottom {
+    cursor: pointer;
+    text-align: center;
+    font-family: "Arial Black";
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.painel-home-modulo-body{
+    padding: 0;
+}
+
+.painel-home-modulo-body img{
+
+    width: 100%;
+    margin: 0;
+
+}
+
+.painel-professor-login-body {
+    width: 100%;
+    margin: 50px auto;
+    padding: 0 0 0 300px;
+}
+
+.painel-professor-login-body button {
+    width: 100px;
+    margin: 10px 10px 10px 80px;
+}
+
+.btn-entrar {
+    margin-top: 80% !important;
+
+}
+
+.painel-professor-login-header {
+    padding: 10px;
+}

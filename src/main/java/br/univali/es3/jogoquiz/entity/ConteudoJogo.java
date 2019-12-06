@@ -2,9 +2,9 @@ package br.univali.es3.jogoquiz.entity;
 
 import javax.persistence.*;
 
-@Entity
+//@Entity
 public class ConteudoJogo {
-
+/*
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
@@ -30,5 +30,5 @@ public class ConteudoJogo {
     {
         nome = name;
     }
-
+*/
 }
